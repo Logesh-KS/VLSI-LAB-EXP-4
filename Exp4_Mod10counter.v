@@ -1,3 +1,4 @@
+
 //MOD -10 COUNTER 
 module mod10(rst,clk,out); 
 input rst,clk; 

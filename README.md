@@ -242,6 +242,9 @@ OUTPUT:
 <img width="962" alt="2024-04-08 (12)" src="https://github.com/21004601/VLSI-LAB-EXP-4/assets/146088220/f2772b2a-196d-4b24-871c-5f153ef91116">
 
 
+
+
+
 RESULT:
  Hence The simulation and synthesis  of SR, JK, T, D - FLIPFLOP, COUNTER DESIGN using Vivado 2023 is done and output verified successfully.
 

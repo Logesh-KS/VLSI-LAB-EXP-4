@@ -1,10 +1,10 @@
 # VLSI-LAB-EXP-4
 # SIMULATION AND IMPLEMENTATION OF SEQUENTIAL LOGIC CIRCUITS
 
-AIM: 
+**AIM:** 
  To simulate and synthesis SR, JK, T, D - FLIPFLOP, COUNTER DESIGN using Xilinx ISE.
 
-APPARATUS REQUIRED:
+**APPARATUS REQUIRED:**
 
 Xilinx 14.7
 Spartan6 FPGA
@@ -36,7 +36,7 @@ COUNTER
 
 
   
-PROCEDURE:
+**PROCEDURE:**
 STEP:1  Start  the Xilinx navigator, Select and Name the New project.
 STEP:2  Select the device family, device, package and speed.       
 STEP:3  Select new source in the New Project and select Verilog Module as the Source type.                       
@@ -51,7 +51,7 @@ STEP:11  On the board, by giving required input, the LEDs starts to glow light, 
 
 # D-FLIP FLOP
 
-VERILOG CODE
+**VERILOG CODE :**
 ~~~
 module Dflipflop(D,clk,reset,Q);
 input D;
@@ -75,7 +75,7 @@ OUTPUT:
 
 # JK FLIP FLOP
 
-VERILOG CODE:
+**VERILOG CODE:**
 ~~~
 module JK_flipflop (q, q_bar, j,k, clk,reset);
 input j,k,clk, reset;
@@ -106,7 +106,7 @@ OUTPUT:
 
 # MOD-10 COUNTER
 
-VERILOG CODE:
+**VERILOG CODE:**
 ~~~
 module mod10(clk,rst,out);
 input clk,rst;
@@ -128,7 +128,7 @@ OUTPUT:
 
 # RIPPLE CARRY COUNTER
 
-VERILOG CODE:
+**VERILOG CODE:**
 ~~~
 module tff(q,clk,rst);
 input clk,rst;
@@ -166,7 +166,7 @@ OUTPUT:
 
 # SR FLIP FLOP
 
-VERILOG CODE:
+**VERILOG CODE:**
 ~~~
 module sr_flipflop(s,r,clk,rst,q);
 input s,r,clk,rst;
@@ -195,7 +195,7 @@ OUTPUT:
 
 # T FLIP FLOP
 
-VERILOG CODE:
+**VERILOG CODE:**
 ~~~
 module T_flipflop(clk,rst,t,q);
 input clk,rst,t;
@@ -219,7 +219,7 @@ OUTPUT:
 
 # UP-DOWN COUNTER
 
-VERILOG CODE:
+**VERILOG CODE:**
 ~~~
 module updown_counter(clk,rst,updown,out);
 input clk,rst,updown;
@@ -245,7 +245,7 @@ OUTPUT:
 
 
 
-RESULT:
+**RESULT:**
  Hence The simulation and synthesis  of SR, JK, T, D - FLIPFLOP, COUNTER DESIGN using Vivado 2023 is done and output verified successfully.
 
 
